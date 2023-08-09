@@ -1,0 +1,3 @@
+INDEX VERSION 1.134+C:\Users\Gabriel Pegoraro\Desktop\Faculdade\Linguagens_De_Programacao_III\Eclipse_WorkSpace\.metadata\.plugins\org.eclipse.jdt.core
+3130980862.index
+1865797976.index
