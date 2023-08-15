@@ -1,0 +1,17 @@
+
+public class Main {
+	public static void main(String[] args) {
+		
+		User guilherme = new User ();
+		guilherme.setName("Guilherme");
+		guilherme.setCpf("132.447.506-48");
+		
+		User Gabriel = new User();
+		Gabriel.setName("Rya");
+		Gabriel.setCpf("125.015.789-96");
+		
+		System.out.println()
+				
+	}
+			
+}

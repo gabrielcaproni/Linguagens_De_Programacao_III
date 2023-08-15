@@ -1,44 +1,37 @@
-import java.util.ArrayList;
-import java.util.List;
+public abstract class User {
+	
+private int id;
+private String name;
+private String BirthDate;
 
-public class User {
-	private String nome;
-	private String CPF;
-	private List<String> friends;
+protected User(int id) {
+	this.id = id;	
+}
+
+public int getId(){
+	return id;
+}
+
+public String getName() {
+	return name;
+}
+
+public void setName(String name) {
+	this.name = name;
+}
+
+public String getBirthDate() {
+	return BirthDate;
+}
+
+public void setBirthDate(String birthDate) {
+	BirthDate = birthDate;
+}
+
+public String formatPersonalDate(){
 	
-	public User() {
-		friends = new ArrayList<>();
-		friends.add("Luiza");
-		friends.add("Rosana");
-		friends.add("Guilherme");
-	}
-	
-	public void addFriend(String nome) {
-		// Valida o amigo
-		this.friends.add(nome);
-	}
-	
-	public List<String> getFriends(){
-		List<String> friendsCopy = new ArrayList<>();
-		for (String friendName : this.friends) {
-			friendsCopy.add(friendName);
-		}
-		return friendsCopy;
-	}
-	
-	public String getNome() {
-		return nome;
-	}
-	
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	
-	public String getCPF() {
-		return CPF;
-	}
-	
-	public void setCPF(String CPF) {
-		this.CPF = CPF;
-	}
+	return String.format("ID: %d\nNome: %s\n", this.id, this.name);
+}
+
+
 }
