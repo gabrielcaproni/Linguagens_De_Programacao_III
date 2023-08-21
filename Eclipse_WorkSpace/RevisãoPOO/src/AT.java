@@ -1,10 +1,11 @@
 
-public class Professor extends User{
+public class AT extends User{
 	private String siape;
 	private String level;
 	private String area;
+	private String role;
 	
-	public Professor(int id, String siape) {
+	public AT(int id, String siape) {
 		super(id);
 		this.siape = siape;
 	}
@@ -25,6 +26,14 @@ public class Professor extends User{
 		this.area = area;
 	}
 
+	public String getRole() {
+		return role;
+	}
+
+	public void setRole(String role) {
+		this.role = role;
+	}
+
 	public String getSiape() {
 		return siape;
 	}
@@ -32,8 +41,8 @@ public class Professor extends User{
 	@Override
 	public String formatPersonalDate(){
 		String userData = super.formatPersonalDate();
-		String professorData = String.format("Siape: %s \nNível: %s \nÁrea: %s\n", siape, level, area);
+		String taData = String.format("Siape: %s \nÁrea: %s \nFunção: %s", siape, area, role);
 		
-		return userData + professorData;
+		return userData + taData;
 	}
 }
