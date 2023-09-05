@@ -1,0 +1,30 @@
+
+public class contaBanco {
+	public float numConta;
+	protected String tipo;
+	private String dono;
+	private float saldo;
+	private boolean status;
+	
+	
+	
+	public void abrirConta() {
+		this.status = true;
+	}
+	
+	public void fecharConta() {
+		this.status = false;
+	}
+	
+	public void depositar() {
+		this.status = true;
+	}
+	
+	public void sacar() {
+		this.status = true;
+	}
+	
+	public void pagarMensal() {
+		this.status = true;
+	}
+}

@@ -1,0 +1,21 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		contaBanco c1 = new contaBanco();	
+		
+		c1.setNumConta(111);
+		c1.setDono("Jubileu");
+		c1.abrirConta("CC");
+		
+		contaBanco c2 = new contaBanco();
+		c2.setNumConta(222);
+		c2.setDono("Creuza");
+		c2.abrirConta("CP");
+		
+		
+		c1.estadoAtual();
+		c2.estadoAtual();
+	}
+
+}

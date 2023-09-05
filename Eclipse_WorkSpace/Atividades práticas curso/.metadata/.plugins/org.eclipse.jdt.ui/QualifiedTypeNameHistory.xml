@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Caneta"/>
+    <fullyQualifiedTypeName name="contaBanco"/>
+    <fullyQualifiedTypeName name="Controlador"/>
+    <fullyQualifiedTypeName name="ControleRemoto"/>
+    <fullyQualifiedTypeName name="Lutador"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="Funcionario"/>
+    <fullyQualifiedTypeName name="Pessoa"/>
+    <fullyQualifiedTypeName name="Animal"/>
+    <fullyQualifiedTypeName name="Mamifero"/>
+</qualifiedTypeNameHistroy>

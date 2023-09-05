@@ -1,0 +1,29 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Mamifero m = new Mamifero();
+		Reptil r = new Reptil();
+		Peixe p = new Peixe();
+		Ave a = new Ave();
+		
+		m.setPeso(35.5f);
+		m.setCorPelo("Marrom");
+		m.locomover();
+		m.alimentar();
+		m.emitirSom();
+	
+		r.setPeso(1.5f);
+		r.setCorEscama("Azul");
+		r.locomover();
+		r.alimentar();
+		r.emitirSom();
+		
+		m.setPeso(0.5f);
+		m.setCorPelo("Branca");
+		m.locomover();
+		m.alimentar();
+		m.emitirSom();
+	}
+
+}
