@@ -34,6 +34,5 @@ public class Produto {
 //		 
 //         return  precoVenda + (precoVenda * margemLucro);
 //    	}
-	Object
 	
 }
