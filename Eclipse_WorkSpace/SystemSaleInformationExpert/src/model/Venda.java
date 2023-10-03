@@ -4,11 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Venda{
+	
 	private List<ItemVenda> itens = new ArrayList<>();
 	
-	public void adicionarItem(ItemVenda item) {
-        itens.add(item);
+	public void adicionarItem(String productCode, int amount) {
+        ItemVenda item = new ItemVenda(productCode, amount);
     }
+	
+	public List<String> getItems(){
+		List<String> saleItemsString = new ArrayList<>();
+		
+		for(ItemVenda it : this.itens) {
+			String item = String.format("%s - %d - %.2f - %.2f", it.getProduct().getName(), it.getAmount(), it.get )
+		}
+	}
 	
 	public double calcularTotal() {
         double total = 0.0;

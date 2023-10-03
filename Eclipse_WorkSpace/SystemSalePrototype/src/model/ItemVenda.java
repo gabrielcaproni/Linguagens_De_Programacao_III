@@ -15,6 +15,6 @@ public class ItemVenda {
 	 
 	@Override
 	public String toString() {
-	        return prod + " - Quantidade: " + qtd + " - Total: R$" + calc();
+	        return "Produto - " + prod + " - Quantidade: " + qtd + " - SubTotal: R$" + calc();
 	    }
 }
